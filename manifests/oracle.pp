@@ -104,14 +104,14 @@ define java::oracle (
       $install_path = "${java_se}1.7.0_80"
     }
     '8' : {
-      $release_major = '8u101'
-      $release_minor = 'b13'
-      $install_path = "${java_se}1.8.0_101"
+      $release_major = '8u102'
+      $release_minor = 'b14'
+      $install_path = "${java_se}1.8.0_102"
     }
     default : {
-      $release_major = '8u101'
-      $release_minor = 'b13'
-      $install_path = "${java_se}1.8.0_101"
+      $release_major = '8u102'
+      $release_minor = 'b14'
+      $install_path = "${java_se}1.8.0_102"
     }
   }
 
